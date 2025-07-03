@@ -5,6 +5,6 @@
         "module" : "dirlister"
     },
     {
-        "module" : "environment"
+        "module" : "env"
     }
 ]

@@ -2,12 +2,10 @@
 
 import os
 
-def run(**args):
-
-    print("[*] in dirlister module.")
-    files = os.listdir(".")
-
-    return str(files)
-
-
-
+def run():
+    try:
+        files = os.listdir(".")
+        return "\n".join(files)
+    except Exception as e:
+        return f"[!] dirlister error: {str(e)}"
+run()

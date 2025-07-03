@@ -1,0 +1,10 @@
+
+
+
+import os
+
+def run():
+    try:
+        return "\n".join([f"{k}={v}" for k, v in os.environ.items()])
+    except Exception as e:
+        return f"[!] environment error: {str(e)}"
