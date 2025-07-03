@@ -1,11 +1,4 @@
-
-
-import os
-
-def run():
-    try:
-        files = os.listdir(".")
-        return "\n".join(files)
-    except Exception as e:
-        return f"[!] dirlister error: {str(e)}"
-run()
+CgppbXBvcnQgb3MKCmRlZiBydW4oKToKICAgIHRyeToKICAgICAgICBmaWxlcyA9IG9zLmxpc3Rk
+aXIoIi4iKQogICAgICAgIHJldHVybiAiXG4iLmpvaW4oZmlsZXMpCiAgICBleGNlcHQgRXhjZXB0
+aW9uIGFzIGU6CiAgICAgICAgcmV0dXJuIGYiWyFdIGRpcmxpc3RlciBlcnJvcjoge3N0cihlKX0i
+CnJ1bigp
